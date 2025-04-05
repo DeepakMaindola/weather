@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    box-sizing:border-box
+}
+body {
+   background: #222;
+}
+.card{
+    width: 100%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.search-input{
+    border: 2px solid black;
+    outline:0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex: 1;
+    font-size: 18px;
+
+}
+.search-icon{
+    background:#ebfffc;
+    width:20%;
+    height:61px;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: #ebfffc;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+.search-icon i{
+    width: 100%;
+    font-size: 25px;
+    align-items: center;
+    color: black;
+}
+.weather{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.weather-img{
+    width:50%;
+    align-items: center;
+    border-radius: 170px;
+
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+  }
+  
+  .weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+
+  }
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: linear-gradient(135deg,#00feba,#5b548a); 
+    border-radius: 12px;
+    color: white;
+    width: 100%;
+   
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .col_img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    filter: brightness(0) invert(1); 
+  }
+  
+  .col-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    color: white;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    line-height: 1.2;
+  }
+  
+  .humidity,
+  .wind-speed {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .text p:last-child {
+    font-size: 13px;
+    color: #e0e0e0;
+    margin: 0;
+  }
+  
